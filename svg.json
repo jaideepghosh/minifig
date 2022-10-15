@@ -1,0 +1,198 @@
+{
+  "Background": [
+    {
+      "name": "Boom 1",
+      "path": "/assets/images/backgrounds/boom-1.svg"
+    },
+    {
+      "name": "Boom 2",
+      "path": "/assets/images/backgrounds/boom-2.svg"
+    },
+    {
+      "name": "Boom 3",
+      "path": "/assets/images/backgrounds/boom-3.svg"
+    },
+    {
+      "name": "Bricks 1",
+      "path": "/assets/images/backgrounds/bricks-1.svg"
+    },
+    {
+      "name": "Bricks 2",
+      "path": "/assets/images/backgrounds/bricks-2.svg"
+    },
+    {
+      "name": "Bricks 3",
+      "path": "/assets/images/backgrounds/bricks-3.svg"
+    },
+    {
+      "name": "Solid Green",
+      "path": "/assets/images/backgrounds/solid-green.svg"
+    },
+    {
+      "name": "Solid Pink",
+      "path": "/assets/images/backgrounds/solid-pink.svg"
+    },
+    {
+      "name": "Solid Purple",
+      "path": "/assets/images/backgrounds/solid-purple.svg"
+    },
+    {
+      "name": "Solid SkyBlue",
+      "path": "/assets/images/backgrounds/solid-sky-blue.svg"
+    },
+    {
+      "name": "Solid DarkYellow",
+      "path": "/assets/images/backgrounds/solid-yellow-dark.svg"
+    },
+    {
+      "name": "Solid Yellow",
+      "path": "/assets/images/backgrounds/solid-yellow.svg"
+    }
+  ],
+  "Hairstyle": [
+    {
+      "name": "Bun",
+      "path": "/assets/images/hairstyle/bun.svg"
+    },
+    {
+      "name": "Cap",
+      "path": "/assets/images/hairstyle/cap.svg"
+    },
+    {
+      "name": "Crazy",
+      "path": "/assets/images/hairstyle/crazy.svg"
+    },
+    {
+      "name": "Curly",
+      "path": "/assets/images/hairstyle/curly.svg"
+    },
+    {
+      "name": "Long",
+      "path": "/assets/images/hairstyle/long.svg"
+    },
+    {
+      "name": "Mullet",
+      "path": "/assets/images/hairstyle/mullet.svg"
+    },
+    {
+      "name": "Ninja",
+      "path": "/assets/images/hairstyle/ninja.svg"
+    },
+    {
+      "name": "Ponytail",
+      "path": "/assets/images/hairstyle/ponytail.svg"
+    },
+    {
+      "name": "Smooth",
+      "path": "/assets/images/hairstyle/smooth.svg"
+    },
+    {
+      "name": "Styled",
+      "path": "/assets/images/hairstyle/styled.svg"
+    }
+  ],
+  "Eyes": [
+    {
+      "name": "Lashes",
+      "path": "/assets/images/eyes/lashes.svg"
+    },
+    {
+      "name": "Nice",
+      "path": "/assets/images/eyes/nice.svg"
+    },
+    {
+      "name": "Normal",
+      "path": "/assets/images/eyes/normal.svg"
+    },
+    {
+      "name": "Original",
+      "path": "/assets/images/eyes/original.svg"
+    },
+    {
+      "name": "Tired",
+      "path": "/assets/images/eyes/tired.svg"
+    }
+  ],
+  "Eyebrows": [
+    {
+      "name": "Angry",
+      "path": "/assets/images/eyebrows/angry.svg"
+    },
+    {
+      "name": "Formed",
+      "path": "/assets/images/eyebrows/formed.svg"
+    },
+    {
+      "name": "Round",
+      "path": "/assets/images/eyebrows/round.svg"
+    },
+    {
+      "name": "Thick",
+      "path": "/assets/images/eyebrows/thick.svg"
+    },
+    {
+      "name": "Thin",
+      "path": "/assets/images/eyebrows/thin.svg"
+    },
+    {
+      "name": "Unsure",
+      "path": "/assets/images/eyebrows/unsure.svg"
+    }
+  ],
+  "Lips": [
+    {
+      "name": "Beard",
+      "path": "/assets/images/lips/beard.svg"
+    },
+    {
+      "name": "Beard 2",
+      "path": "/assets/images/lips/beard-2.svg"
+    },
+    {
+      "name": "Line",
+      "path": "/assets/images/lips/line.svg"
+    },
+    {
+      "name": "Lips",
+      "path": "/assets/images/lips/lips.svg"
+    },
+    {
+      "name": "Open Smile",
+      "path": "/assets/images/lips/open-smile.svg"
+    },
+    {
+      "name": "Original",
+      "path": "/assets/images/lips/original.svg"
+    },
+    {
+      "name": "Smile",
+      "path": "/assets/images/lips/smile.svg"
+    }
+  ],
+  "Dress": [
+    {
+      "name": "Muscle shirt",
+      "path": "/assets/images/dress/muscle-shirt.svg"
+    },
+    {
+      "name": "Necklace",
+      "path": "/assets/images/dress/necklace.svg"
+    },
+    {
+      "name": "Plain",
+      "path": "/assets/images/dress/plain.svg"
+    },
+    {
+      "name": "Print",
+      "path": "/assets/images/dress/print.svg"
+    },
+    {
+      "name": "Super Hero",
+      "path": "/assets/images/dress/super-hero.svg"
+    },
+    {
+      "name": "Sweater",
+      "path": "/assets/images/dress/sweater.svg"
+    }
+  ]
+}
