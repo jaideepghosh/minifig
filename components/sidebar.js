@@ -1,13 +1,15 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import CommonContext from "../contexts/common.context";
 
 export default function Sidebar() {
   const { setCommonContext } = useContext(CommonContext);
+  const [activeLink, setActiveLink] = useState(null);
   const handleComponentSelection = (componentType) => {
     setCommonContext({
       showTray: true,
       selectedNavItem: componentType,
     });
+    setActiveLink(componentType);
   };
   return (
     <div className="h-full">
@@ -32,7 +34,9 @@ export default function Sidebar() {
           <a
             onClick={(_) => handleComponentSelection("Background")}
             title="Background"
-            className="flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-gray-300"
+            className={`flex items-center justify-center w-12 h-12 mt-2 rounded ${
+              activeLink === "Background" ? "bg-gray-300" : "hover:bg-gray-300"
+            }`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +56,9 @@ export default function Sidebar() {
           <a
             onClick={(_) => handleComponentSelection("Hairstyle")}
             title="Hairstyle"
-            className="flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-gray-300"
+            className={`flex items-center justify-center w-12 h-12 mt-2 rounded ${
+              activeLink === "Hairstyle" ? "bg-gray-300" : "hover:bg-gray-300"
+            }`}
           >
             <svg
               width="66"
@@ -76,7 +82,9 @@ export default function Sidebar() {
           <a
             onClick={(_) => handleComponentSelection("Eyes")}
             title="Eyes"
-            className="flex items-center justify-center w-12 h-12 mt-2 hover:bg-gray-300 rounded"
+            className={`flex items-center justify-center w-12 h-12 mt-2 rounded ${
+              activeLink === "Eyes" ? "bg-gray-300" : "hover:bg-gray-300"
+            }`}
           >
             <svg
               width="24"
@@ -130,7 +138,9 @@ export default function Sidebar() {
           <a
             onClick={(_) => handleComponentSelection("Eyebrows")}
             title="Eyebrows"
-            className="flex items-center justify-center w-12 h-12 mt-2 hover:bg-gray-300 rounded"
+            className={`flex items-center justify-center w-12 h-12 mt-2 rounded ${
+              activeLink === "Eyebrows" ? "bg-gray-300" : "hover:bg-gray-300"
+            }`}
           >
             <svg
               width="29"
@@ -152,7 +162,9 @@ export default function Sidebar() {
           <a
             onClick={(_) => handleComponentSelection("Lips")}
             title="Lips"
-            className="flex items-center justify-center w-12 h-12 mt-2 hover:bg-gray-300 rounded"
+            className={`flex items-center justify-center w-12 h-12 mt-2 rounded ${
+              activeLink === "Lips" ? "bg-gray-300" : "hover:bg-gray-300"
+            }`}
           >
             <svg
               width="27"
@@ -178,7 +190,9 @@ export default function Sidebar() {
           <a
             onClick={(_) => handleComponentSelection("Dress")}
             title="Dress"
-            className="flex items-center justify-center w-12 h-12 mt-2 hover:bg-gray-300 rounded"
+            className={`flex items-center justify-center w-12 h-12 mt-2 rounded ${
+              activeLink === "Dress" ? "bg-gray-300" : "hover:bg-gray-300"
+            }`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
