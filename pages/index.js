@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
+import Sidebar from "../components/sidebar";
 import CommonContext from "../contexts/common.context";
 
 export default function Home() {
@@ -18,7 +19,9 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="h-screen sticky top-0"></div>
+      <div className="h-screen sticky top-0">
+        <Sidebar />
+      </div>
     </CommonContext.Provider>
   );
 }
