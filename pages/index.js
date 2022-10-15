@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import Sidebar from "../components/sidebar";
+import SelectionTray from "../components/selection-tray";
 import CommonContext from "../contexts/common.context";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       </Head>
       <div className="h-screen sticky top-0">
         <Sidebar />
+        {common && common.showTray && <SelectionTray />}
       </div>
     </CommonContext.Provider>
   );
