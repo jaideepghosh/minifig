@@ -194,5 +194,19 @@
       "name": "Sweater",
       "path": "/assets/images/dress/sweater.svg"
     }
+  ],
+  "Accessories": [
+    {
+      "name": "Plain",
+      "path": "/assets/images/accessories/plain.svg"
+    },
+    {
+      "name": "Reading",
+      "path": "/assets/images/accessories/reading.svg"
+    },
+    {
+      "name": "Sunnies",
+      "path": "/assets/images/accessories/sunnies.svg"
+    }
   ]
 }
